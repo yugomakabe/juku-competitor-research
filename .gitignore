@@ -1,0 +1,9 @@
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+.playwright-mcp/
+
+tmp/
