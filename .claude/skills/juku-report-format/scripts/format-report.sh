@@ -1,6 +1,6 @@
 #!/bin/bash
 # juku-report-format/scripts/format-report.sh
-# 学習塾競合調査レポート整形の前処理スクリプト
+# 教育産業競合調査レポート整形の前処理スクリプト
 # 使い方: bash .claude/skills/juku-report-format/scripts/format-report.sh <入力ファイル> <出力ファイル>
 #
 # 役割: 入出力パスの検証と出力先ディレクトリの作成を行う
@@ -30,7 +30,7 @@ OUTPUT_DIR="$(dirname "$OUTPUT_FILE")"
 mkdir -p "$OUTPUT_DIR"
 
 echo "=========================================="
-echo "学習塾競合調査レポート整形スクリプト"
+echo "教育産業競合調査レポート整形スクリプト"
 echo "=========================================="
 echo "入力：$INPUT_FILE"
 echo "出力：$OUTPUT_FILE"
